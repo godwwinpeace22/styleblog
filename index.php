@@ -102,7 +102,7 @@
           <div class="col-sm-6 oneblock2">
             <h3><a href='posts.php?id=<?php echo $posts[5]['id'] ?>' style='color:#fa4b2a;'><?php echo $posts[5]['title'] ?></a></h3>
             <h4>By <span style='color:#fa4b2a;'><?php echo $posts[5]['author'] ?></span> <span><?php echo $posts[0]['created_at'] ?></span></h4>
-            <p><?php echo $posts[5]['body'] ?></p>
+            <p><?php echo substr($posts[5]['body'],0,100). ' ...' ?></p>
             
             <p><a href="posts.php?id=<?php echo $posts[5]['id'] ?>" class="continue">Continue Reading</a></p>
           </div>

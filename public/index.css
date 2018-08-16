@@ -122,7 +122,9 @@ header{
 .content{
   min-height: 200px;
 }
-
+.content h3{
+  text-transform: capitalize;
+}
 .content .wideblock img{
   width:100%;
   max-height: 280px;
