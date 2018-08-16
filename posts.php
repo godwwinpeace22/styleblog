@@ -24,7 +24,7 @@
 
 <?php require  'inc/header.php' ?>
 <!-- banner -->
-<div class="bannersmall col-sm-12" style="padding:0;height:250px;background-image:url('public/images/banner.jpg');background-position:top;background-size:cover;">
+<div class="bannersmall col-sm-12" style="padding:0;height:250px;background-image:url('http://res.cloudinary.com/unplugged/image/upload/c_scale,w_980/v1534246745/banner.jpg');background-position:top;background-size:cover;">
   <div class="darken"></div>
 </div>
 

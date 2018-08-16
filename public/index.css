@@ -70,7 +70,7 @@ header{
   height: 500px;
   background:grey;
   text-align:center;
-  background-image:url('images/banner.jpg');
+  background-image:url('http://res.cloudinary.com/unplugged/image/upload/c_scale,w_980/v1534246745/banner.jpg');
   background-size:cover;
   background-position:top;
 }
