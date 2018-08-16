@@ -39,7 +39,7 @@
           <a href='posts.php?id=<?php echo $posts[0]['id'] ?>'><img src="<?php echo $posts[0]['cover_photo']; ?>" alt="img" class="blockimg"></a>
           <h3><a href='posts.php?id=<?php echo $posts[0]['id'] ?>' style='color:#fa4b2a;'><?php echo $posts[0]['title'] ?></a></h3>
           <h4>By <span style='color:#fa4b2a;'><?php echo $posts[0]['author'] ?></span> <span><?php echo $posts[0]['created_at'] ?></span></h4>
-          <p><?php echo $posts[0]['body'] ?></p>
+          <p><?php echo substr($posts[0]['body'],0,500) .' ...' ?></p>
           <p>Lorek ipsum autem nulla perferendis, tempore in optio vel doloribus.</p>
           <p><a href="posts.php?id=<?php echo $posts[0]['id'] ?>" class="continue">Continue Reading</a></p>
         </div>
@@ -51,7 +51,7 @@
             <a href='posts.php?id=<?php echo $posts[1]['id'] ?>'><img src="<?php echo $posts[1]['cover_photo']; ?>" alt="img" class="blockimg"></a>
             <h3 ><a href='posts.php?id<?php echo $posts[1]['id'] ?>' style='color:#fa4b2a;'><?php echo $posts[1]['title'] ?></a></h3>
             <h4>By <span style='color:#fa4b2a;'><?php echo $posts[1]['author'] ?></span> <span><?php echo $posts[1]['created_at'] ?></span></h4>
-            <p><?php echo $posts[1]['body'] ?></p>
+            <p><?php echo substr($posts[1]['body'],0,200) .' ...' ?></p>
             <p>Lorek ipsum autem nulla perferendis, tempore in optio vel doloribus.</p>
             <p><a href="posts.php?id=<?php echo $posts[1]['id'] ?>" class="continue">Continue Reading</a></p>
           </div>
@@ -59,7 +59,7 @@
             <a href='posts.php?id=<?php echo $posts[2]['id'] ?>'><img src="<?php echo $posts[2]['cover_photo'] ?>" alt="img" class="blockimg"></a>
             <h3><a href='posts.php?id=<?php echo $posts[2]['id'] ?>' style='color:#fa4b2a;'>Lorem Ipsum Title</a></h3>
             <h4>By <span style='color:#fa4b2a;'><?php echo $posts[2]['author'] ?></span> <span><?php echo $posts[2]['created_at'] ?></span></h4>
-            <p><?php echo $posts[2]['body'] ?></p>
+            <p><?php echo substr($posts[2]['body'],0,200) .' ...' ?></p>
             <p>Lorek ipsum autem nulla perferendis, tempore in optio vel doloribus.</p>
             <p><a href="posts.php?id=<?php echo $posts[2]['id'] ?>"class="continue">Continue Reading</a></p>
           </div>
@@ -74,7 +74,7 @@
           <div class="col-sm-6 oneblock2">
             <h3><a href='posts.php?id=<?php echo $posts[3]['id'] ?>' style='color:#fa4b2a;'><?php echo $posts[3]['title'] ?></a></h3>
             <h4>By <span style='color:#fa4b2a;'><?php echo $posts[3]['author'] ?></span> <span><?php echo $posts[3]['created_at'] ?></span></h4>
-            <p><?php echo $posts[3]['body'] ?></p>
+            <p><?php echo substr($posts[3]['body'],0,100) .' ...' ?></p>
             
             <p><a href="posts.php?id=<?php echo $posts[3]['id'] ?>" class="continue">Continue Reading</a></p>
           </div>
@@ -88,7 +88,7 @@
           <div class="col-sm-6 oneblock2">
             <h3><a href='posts.php?id=<?php echo $posts[4]['id'] ?>' style='color:#fa4b2a;'><?php echo $posts[4]['title'] ?></a></h3>
             <h4>By <span style='color:#fa4b2a;'><?php echo $posts[4]['author'] ?></span> <span><?php echo $posts[4]['created_at'] ?></span></h4>
-            <p><?php echo $posts[0]['body'] ?></p>
+            <p><?php echo substr($posts[0]['body'],0,100) .' ...' ?></p>
             
             <p><a href="posts.php?id=<?php echo $posts[4]['id'] ?>" class="continue">Continue Reading</a></p>
           </div>
